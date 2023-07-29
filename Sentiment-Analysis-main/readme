@@ -1,0 +1,51 @@
+# Twitter Sentiment Analysis
+
+## Overview
+
+This repository contains code and resources for performing sentiment analysis on Twitter data. Sentiment analysis is the process of determining the emotional tone behind a series of words, and in this case, tweets from Twitter. The goal is to analyze and categorize each tweet as positive, negative, or neutral based on the sentiment it conveys.
+
+## Contents
+
+- `data/`: This folder contains sample Twitter data in CSV format. The dataset includes tweets along with their corresponding metadata, such as timestamp and user information.
+
+- `notebooks/`: This directory contains Jupyter notebooks with the step-by-step process of sentiment analysis using different algorithms and techniques. The notebooks cover data preprocessing, feature extraction, model training, and evaluation.
+
+- `src/`: This folder includes Python scripts that are used in the Jupyter notebooks for data preprocessing and model building. It also contains utility functions for data cleaning and text processing.
+
+- `requirements.txt`: A text file that lists all the required Python libraries and their versions needed to run the code.
+
+## Requirements
+
+To run the code in the Jupyter notebooks, you'll need the following Python libraries:
+
+- pandas
+- numpy
+- scikit-learn
+- nltk
+- tweepy (for accessing Twitter API)
+- matplotlib (for visualization)
+- wordcloud (for generating word clouds)
+
+You can install all the required libraries using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+## How to Use
+
+1. Clone this repository to your local machine using `git clone`.
+
+2. Create a Twitter developer account and obtain API keys and access tokens. Replace the placeholders in the `config.py` file with your own credentials.
+
+3. Run the Jupyter notebooks in the `notebooks/` directory to perform sentiment analysis using various techniques.
+
+4. Experiment with different algorithms, feature extraction methods, and preprocessing techniques to improve the sentiment analysis results.
+
+
+## Acknowledgments
+
+- The Twitter data used in this project is sourced from the official Twitter API.
+- Special thanks to the developers of scikit-learn, nltk, and other open-source libraries used in this project.
+
+For any questions or suggestions, please feel free to reach out to 2029156@liit.ac.in. Happy analyzing!
